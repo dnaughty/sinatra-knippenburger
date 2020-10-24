@@ -1,2 +1,7 @@
-require './home'
-run Sinatra::Application
+require 'rubygems'
+require 'bundler'
+
+Bundler.require
+
+require './my_sinatra_app'
+run MySinatraApp
