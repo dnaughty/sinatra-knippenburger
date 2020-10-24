@@ -1,7 +1,2 @@
-require 'rubygems'
-require 'bundler'
-
-Bundler.require
-
-require './main.rb'
-run MySinatraApp
+require '.sinatra-knippenburger'
+run Sinatra::Application
