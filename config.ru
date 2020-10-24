@@ -1,2 +1,2 @@
-require '.sinatra-knippenburger'
+require '.main.rb'
 run Sinatra::Application
