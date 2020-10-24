@@ -1,5 +1,5 @@
 require 'sinatra' 
-require 'slim'
+
 
 get "/" do
 	erb :home
