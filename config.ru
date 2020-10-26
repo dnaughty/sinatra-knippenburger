@@ -1,7 +1,5 @@
 require "./app"
 
-map "/public" do
-  run Rack::Directory.new("./public")
-end
+use Rack::Static, :urls => ['/stylesheets', '/javascripts'], :root => 'public'
 
 run App
